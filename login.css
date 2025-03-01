@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0e141b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #0e141b;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: #1b242f;
+    border: none;
+    padding: 12px;
+    margin: 8px 0;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+.password-container {
+    position: relative;
+}
+
+.forgot-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #3ca4ff;
+    cursor: pointer;
+}
+
+button {
+    background-color: #3ca4ff;
+    border: none;
+    padding: 12px;
+    margin: 10px 0;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.divider {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook-btn, .google-btn {
+    background-color: #1b242f;
+    border: 1px solid #3ca4ff;
+    color: #3ca4ff;
+    padding: 10px;
+    width: 48%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.terms, .recaptcha {
+    font-size: 11px;
+    color: #888;
+    margin-top: 10px;
+}
+
+.terms a, .recaptcha a {
+    color: #3ca4ff;
+    text-decoration: none;
+}
+
+.signup-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: 1px solid #3ca4ff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #3ca4ff;
+}
